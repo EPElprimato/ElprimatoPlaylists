@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои Плейлисты</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Плейлисты созданые Elprimato</h1>
+        <p>Каждый найдет то что ему по душе</p>
+    </header>
+    <section class="playlist-container">
+        <div class="playlist-card" onclick="expandPlaylist(this)">
+            <iframe src="https://open.spotify.com/embed/playlist/2OxCdF7PayFwbjS8QxmQAu" frameborder="0" allow="encrypted-media"></iframe>
+        </div>
+        <div class="playlist-card" onclick="expandPlaylist(this)">
+            <iframe src="https://open.spotify.com/embed/playlist/1EpxDS0v1lVvxp8dW5BDMG?si=b2038c80a91b4bea" frameborder="0" allow="encrypted-media"></iframe>
+        </div>
+        <div class="playlist-card" onclick="expandPlaylist(this)">
+            <iframe src="https://open.spotify.com/embed/playlist/3SgaNt3z6AaRvP7VixewwS" frameborder="0" allow="encrypted-media"></iframe>
+        </div>
+        <div class="playlist-card" onclick="expandPlaylist(this)">
+            <iframe src="https://open.spotify.com/embed/playlist/2GvYkCc7tRVFVPxDGQyK7n" frameborder="0" allow="encrypted-media"></iframe>
+        </div>
+        <div class="playlist-card" onclick="expandPlaylist(this)">
+            <iframe src="https://open.spotify.com/embed/playlist/0vYWcahKV41XwSrHUl41jE" frameborder="0" allow="encrypted-media"></iframe>
+        </div>
+        <div class="playlist-card" onclick="expandPlaylist(this)">
+            <iframe src="https://open.spotify.com/embed/playlist/00dA1dcD3tLXDk2Op4tSMO" frameborder="0" allow="encrypted-media"></iframe>
+        </div>
+    </section>
+    <div class="close-button" onclick="collapsePlaylist()">Закрыть</div>
+    <script src="scripts.js"></script>
+</body>
+</html>
